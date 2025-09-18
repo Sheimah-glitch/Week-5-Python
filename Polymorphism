@@ -1,0 +1,20 @@
+class Car:
+    def move(self):
+        print("Driving")
+
+class Plane:
+    def move(self):
+        print("Flying")
+
+class Boat:
+    def move(self):
+        print("Sailing")   
+
+
+c = Car()
+p = Plane()
+b =Boat()
+
+c.move()
+p.move()
+b.move()
