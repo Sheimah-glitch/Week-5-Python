@@ -1,0 +1,10 @@
+class Smartphone:
+  def __init__(self, name, year):
+    self.name = name
+    self.year = year
+
+  def __str__(self):
+    return(f"{self.name} {self.year} is a good book")  
+  
+x = Smartphone("Maths", 2009)
+print(x)
